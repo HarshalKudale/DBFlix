@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "DB Flix",
+  "version": "1.0",
+  "description": "Watch movies directly on imdb",
+  "permissions": ["activeTab","tabs"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.imdb.com/*"],
+      "js": ["content/content.js"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "DBFlix@HarshalKudale"
+    }
+  }
+}
