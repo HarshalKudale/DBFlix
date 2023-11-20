@@ -12,3 +12,4 @@ Just go to IMDB and search for any movie or series. Scroll down to movie.
 ## FIrefox
 ->> Download signed extension from release(you can extract and check code for signed xpi) or sign the zip yourself on AMO.
 
+Note - These ads are from the source it self. any adblocker is able to filter them. preferred is Ublock Origin
